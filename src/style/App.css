@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  
+}
+
+body{
+  background-color: #DB0992;
+  overflow-x: hidden;
+}
+
+header{
+  width: 100%;
+}
+
+.header-section{
+  padding : 0 ;
+}
+
+#page-title {
+  background-color: #55D7FF;
+  height: auto;
+  display: flex ;
+  min-height: 12em;
+}
+
+#page-title p{
+  margin :  auto;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  font-size: 1.5em;
+}
+
+#illustration{
+  height: auto;
+}
+
+#illustration img{
+  width: 100%;
+  height: auto;
+}
+
+#search-section{
+  width: 60%;
+  margin : auto ;
+  margin-top:  2em;
+}
+
+.card{
+  margin : auto ;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+#search-section button{
+  background-color: #55D7FF;
+  padding-left: 45px ;
+  padding-right: 45px ;
+}

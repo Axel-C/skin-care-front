@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front-End Developer Interview Challenge
 
-## Available Scripts
+This goal of this task is to assess your technical skills as a developer, your capacity to work with specifications and your ability to use best practices.
 
-In the project directory, you can run:
+Don't hesitate to ask questions if necessary. You can also make assumptions when necessary as long as you detail them.
 
-### `yarn start`
+Use any online resources you see fit.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Evaluation
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+You will be evaluated both on the final result, the choices you made on how to achieve it and the respect of the best practices.
 
-### `yarn test`
+## Context
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A beauty shop wants to provide customers with an easy way of finding specific products.
 
-### `yarn build`
+## Proposed Solution
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A web application that allows customers to search for a product using a search form.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The given starting code is in Vue.js but you can use React if you are more comfortable with it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Your task
 
-### `yarn eject`
+Implement a simple proof-of-concept front-end application based on the design sketches provided by the designer.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Resources
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Images and design sketches are located in the resources folder.
+Colours are #55D7FF and #DB0992.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### API
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The API that will be used is the community based test API [Skin Care API](https://github.com/LauraRobertson/skincareAPI).
 
-## Learn More
+The pagination feature of this API is not working. If you encounter any other problem with it, don't hesitate to contact us.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Because of CORS issues, please use the following URL to do a search on the API: 
+```https://cors-anywhere.herokuapp.com/https://skincare-api.herokuapp.com/product?q=[YOUR SEARCH STRING]```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Desktop
 
-### Code Splitting
+![Desktop](resources/Desktop.jpg)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### Mobile
 
-### Analyzing the Bundle Size
+![Mobile](resources/TabletPortrait.jpg)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Project setup
+```
+yarn install
+```
 
-### Making a Progressive Web App
+### Compiles and hot-reloads for development
+```
+yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Compiles and minifies for production
+```
+yarn build
+```
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Run the tests
+```
+yarn test
+```
